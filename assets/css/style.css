@@ -397,28 +397,105 @@ abbr[title], dfn[title] {
 
 #timer {
   color: #fbfbfb;
-  margin: -150px 0 0;
   position: absolute;
   text-align: center;
   text-shadow: 1px 1px 10px rgba(0, 3, 5, 0.9);
   top: 50%;
   width: 100%; }
-  #timer li {
-    display: inline-block;
-    height: 210px;
-    width: 160px;
-    padding: 0 15px; }
-    #timer li h1 {
-      font-family: 'United Sans Cd Hv', Impact, sans-serif;
-      font-size: 152px;
-      letter-spacing: 3px; }
-  #timer p {
-    font-family: 'United Sans SmCd Bd', Impact, sans-serif;
-    font-size: 50px;
-    line-height: 70px;
-    text-transform: uppercase; }
-    #timer p a.watchParty {
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width: 479px) {
+  /* Styles */
+  #timer {
+    margin: -100px 0 0; }
+    #timer li {
+      display: inline-block;
+      height: 100px;
+      width: 80px; }
+      #timer li h1 {
+        font-family: 'United Sans Cd Hv', Impact, sans-serif;
+        font-size: 82px;
+        letter-spacing: 3px; }
+    #timer p {
+      font-family: 'United Sans SmCd Bd', Impact, sans-serif;
+      font-size: 16px;
+      line-height: 18px;
+      text-transform: uppercase; }
+      #timer p a.watchParty {
+        font-size: 18px;
+        padding-top: 20px;
+        color: #fbfbfb; } }
+/* Bigger than Cell Phone (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 480px) {
+  #timer {
+    margin: -100px 0 0; }
+    #timer li {
+      display: inline-block;
+      height: 125px;
+      width: 90px; }
+      #timer li h1 {
+        font-family: 'United Sans Cd Hv', Impact, sans-serif;
+        font-size: 72px;
+        letter-spacing: 3px; }
+    #timer p {
+      font-family: 'United Sans SmCd Bd', Impact, sans-serif;
       font-size: 36px;
-      padding-top: 25px;
-      color: white;
-      text-decoration: underline; }
+      line-height: 42px;
+      text-transform: uppercase; }
+      #timer p a.watchParty {
+        font-size: 24px;
+        padding-top: 15px;
+        color: #fbfbfb; } }
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 960px) {
+  #timer {
+    margin: -150px 0 0; }
+    #timer li {
+      display: inline-block;
+      height: 210px;
+      width: 160px;
+      padding: 0 15px; }
+      #timer li h1 {
+        font-family: 'United Sans Cd Hv', Impact, sans-serif;
+        font-size: 152px;
+        letter-spacing: 3px; }
+    #timer p {
+      font-family: 'United Sans SmCd Bd', Impact, sans-serif;
+      font-size: 50px;
+      line-height: 70px;
+      text-transform: uppercase; }
+      #timer p a.watchParty {
+        font-size: 36px;
+        padding-top: 25px;
+        color: #fbfbfb; } }
+/* Large screens ----------- */
+@media only screen and (min-width: 1400px) {
+  #timer {
+    margin: -200px 0 0; }
+    #timer li {
+      display: inline-block;
+      height: 320px;
+      width: 230px;
+      padding: 0 15px; }
+      #timer li h1 {
+        font-family: 'United Sans Cd Hv', Impact, sans-serif;
+        font-size: 250px;
+        letter-spacing: 3px; }
+    #timer p {
+      font-family: 'United Sans SmCd Bd', Impact, sans-serif;
+      font-size: 100px;
+      line-height: 70px;
+      text-transform: uppercase; }
+      #timer p a.watchParty {
+        font-size: 36px;
+        padding-top: 50px;
+        color: #fbfbfb; } }
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */ }
