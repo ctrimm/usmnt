@@ -58,6 +58,7 @@ $white: #fbfbfb;
     display: inline-block;
     height: 210px;
     width: 160px;
+    padding: 0 15px;
 
     h1 {
       font-family: 'United Sans Cd Hv', Impact, sans-serif;
@@ -71,6 +72,12 @@ $white: #fbfbfb;
     font-size: 50px;
     line-height: 70px;
     text-transform: uppercase;
+    a.watchParty {
+      font-size: 36px;
+      padding-top: 25px;
+      color: white;
+      text-decoration: underline;
+    }
   }
 }
 
