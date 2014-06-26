@@ -7,7 +7,7 @@
   };
 
   var timeout;
-  setDate(new Date(2014, 5, 26, 16, 0));
+  setDate(new Date(2014, 7, 1, 20, 0));
 
   function setDate(launch) {
     var now = new Date();
